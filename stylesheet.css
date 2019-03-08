@@ -1,0 +1,80 @@
+nav {
+    height: 80px;
+}
+
+ ul .navbar-nav.mr-auto{
+    margin-right: 400px;
+
+}
+
+ul.navbar-nav.mr-auto li a:hover{
+    font-size: larger;
+
+}
+
+ li {
+     padding: 0 15px;     font-size: 19px;
+ }
+
+nav {
+     font-family: "Comic Sans MS", serif;
+ }
+
+a.navbar-brand{
+    font-size: 30px;
+}
+
+.col-md-auto{
+
+    height:400px;
+}
+
+#homevideo {
+    height: auto;
+    left: 50%;
+    min-height: 105%;
+    min-width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translateX(-50%) translateY(-50%);
+    transform-style: flat;
+    transition: opacity 1s ease 0s;
+    width: auto;
+    z-index: -100;
+}
+
+#topslice {
+    color: #000000;
+    min-height: 680px;
+    position: relative;
+    overflow: hidden;
+}
+
+div.vspacemid {
+    position: absolute;
+
+    padding: 50px 0px 140px;
+}
+
+div.centered {
+    margin: auto;
+    padding: 0px 20px;
+    width: 1240px;
+    overflow: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#maincontent {
+    height:100%;
+    background: rgba(249, 249, 249, 0.24)
+}
+
+#map {
+    height: 100%;
+    width:100%;
+}
+
+.nav-item.active{
+    font-weight:bold;
+}
