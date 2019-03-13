@@ -48,6 +48,7 @@ a.navbar-brand{
     min-height: 680px;
     position: relative;
     overflow: hidden;
+    background-size: cover;
 }
 
 div.vspacemid {
@@ -77,4 +78,13 @@ div.centered {
 
 .nav-item.active{
     font-weight:bold;
+}
+
+.collapse.show {
+    display: block;
+    background-color: white;!important;
+    z-index: 2;!important;}
+
+div{
+    max-width:100%;height:auto
 }
