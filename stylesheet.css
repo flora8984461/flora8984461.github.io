@@ -88,3 +88,12 @@ div.centered {
 div{
     max-width:100%;height:auto
 }
+
+a.carousel-control-prev:hover{
+    background:rgba(200,197,197,0.15);
+
+}
+
+a.carousel-control-next:hover{
+    background:rgba(200,197,197,0.15);
+}
