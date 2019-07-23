@@ -1,12 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: w
- * Date: 3/6/2019
- * Time: 10:38 AM
- */
-
-
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
