@@ -284,8 +284,12 @@ div.img-box:hover img{
     margin-bottom: 0;
 }
 
+.row.people{
+    height:450px;
+}
+
 .testimonials-clean .people {
-    padding: 50px 0 20px;
+    padding: 0 0 100px;
 }
 
 .testimonials-clean .item {
@@ -343,6 +347,15 @@ div.img-box:hover img{
     margin-right: 12px;
     margin-top: -5px;
 }
+
+.progress{
+    margin:10px;
+}
+
+.progress-bar {
+transition: unset;
+}
+
 
 @media screen and (max-width: 480px){
     #uoimg{

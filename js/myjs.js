@@ -15,8 +15,25 @@ $(window).scroll(function() {
 
 */
 
+// progress bar
+$(".progress-element").each(function() {
+    $(this).waypoint(function() {
+        var progressBar = $(".progress-bar");
+        progressBar.each(function(){
+            $(this).delay(100).animate({
+                width: $(this).attr('aria-valuenow') + '%'
+            }, 100);
+        });
+    }, {
+        triggerOnce: true,
+    });
+});
+// progress bar end
+
+//scrollreveal
 window.scrollReveal = new scrollReveal();
 
+//menu js
 (function($) {
     "use strict"; // Start of use strict
 
