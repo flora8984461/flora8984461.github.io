@@ -16,17 +16,14 @@ $(window).scroll(function() {
 */
 
 // progress bar
+
 $(".progress-element").each(function() {
-    $(this).waypoint(function() {
         var progressBar = $(".progress-bar");
         progressBar.each(function(){
-            $(this).delay(100).animate({
+            $(this).delay(0).animate({
                 width: $(this).attr('aria-valuenow') + '%'
-            }, 100);
+            }, 0);
         });
-    }, {
-        triggerOnce: true,
-    });
 });
 // progress bar end
 
