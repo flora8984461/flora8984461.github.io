@@ -128,9 +128,10 @@ button.bg-primary:focus {
     text-align: center;
     background-color: rgba(255,255,255,0.7);
     margin-bottom: 30px;
+    height:500px;
 }
 .img-box{
-    width:100%;padding:0;overflow: hidden;
+    width:100%;padding:0;overflow: hidden; height: 250px;
 }
 .img-box img{
     width:100%;
